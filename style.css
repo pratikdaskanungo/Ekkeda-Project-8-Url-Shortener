@@ -234,7 +234,7 @@ body{
    
     .content .textbox{
         width: 15rem;
-        transform: translate(-276%, -30%);
+        transform: translate(-236%, -30%);
     }
 
     .form .btn .short{
@@ -268,7 +268,9 @@ body{
 
 @media (max-width:400px) {
     
-     
+     body{
+        background-color: brown;
+     }
     .nav .head{
         margin-top:0;
         margin-right: 3rem;
@@ -295,7 +297,7 @@ body{
    
     .content .textbox{
         width: 15rem;
-        transform: translate(-145%, -65%);
+        transform: translate(-60%, -65%);
     }
 
     .form .btn .short{
