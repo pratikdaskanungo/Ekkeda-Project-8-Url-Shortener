@@ -1,0 +1,266 @@
+*{
+   
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#2C3539;
+}
+.head{
+    text-align:center;
+    border-bottom: 0.1rem solid wheat;
+    color: #fff;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content{
+    background: rgba(255,255,255,0.4);
+    width: 43.75rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2.5rem;
+    border-radius: 0.625rem;
+    text-align: center;
+    box-shadow: 0 0.6rem 1.25rem 0px rgba(0,0,0,0.15);
+}
+
+.content h2{
+    color:cyan;
+    text-align:center;
+    margin-top:5rem;
+    font-family: cursive;
+}
+.content .textbox{
+    
+    width:24rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-80%, -70%);
+
+    margin-top: 2rem;
+    padding: 0.3rem;
+}
+.form .btn{
+   display: flex;
+   justify-content: center;
+    margin-top:1.5rem;
+    height: 0.5rem;
+}
+.form .btn .short{
+    height: 1.5rem;
+    background-color: transparent;
+    border: none;
+    color: darkblue;
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+.form .btn .short:hover{
+    background-color:grey;
+    color: cyan;
+}
+
+.result .item p{
+    color:cyan;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+.para p{
+    color:cyan;
+    font-size: 1.5rem; 
+}
+.newUrl-btn{
+    height: 1.5rem;
+    background-color: transparent;
+    border: none;
+    color: darkblue;
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+.newUrl-btn:hover{
+    background-color:grey;
+    color: cyan;
+}
+
+@media (max-width: 600px) {
+    
+     
+    .nav .head{
+        margin-top:0;
+        margin-right: 3rem;
+    
+    }
+    .content{
+        background: rgba(255,255,255,0.4);
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2.5rem;
+        border-radius: 0.625rem;
+        text-align: center;
+        box-shadow: 0 0.6rem 1.25rem 0px rgba(0,0,0,0.15);
+    }
+    .content h2{
+        font-size: 1.2rem;
+        text-align: center;
+        margin: auto;
+    }
+   
+    .content .textbox{
+        width: 15rem;
+        transform: translate(-71%, -65%);
+    }
+
+    .form .btn .short{
+        height: 1.5rem;
+        background-color: transparent;
+        border: none;
+        color: darkblue;
+        margin: 0.3rem;
+        font-size: 0.8rem;
+    }
+    .result .item p{
+        color:cyan;
+        margin-top: 2rem;
+        font-size: 0.8rem;
+    }
+    .newUrl-btn{
+        height: 1.5rem;
+        background-color: transparent;
+        border: none;
+        color: darkblue;
+        margin: 0.5rem;
+        font-size: 0.8rem;
+    }
+    
+    .para p{
+        color:cyan;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:768px) {
+    
+     
+    .nav .head{
+        margin-top:0;
+        margin-right: 3rem;
+    
+    }
+    .content{
+        background: rgba(255,255,255,0.4);
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        top: 54%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2.5rem;
+        border-radius: 0.625rem;
+        text-align: center;
+        box-shadow: 0 0.6rem 1.25rem 0px rgba(0,0,0,0.15);
+    }
+    .content h2{
+        font-size: 1.2rem;
+        text-align: center;
+        margin: auto;
+    }
+   
+    .content .textbox{
+        width: 15rem;
+        transform: translate(-145%, -65%);
+    }
+
+    .form .btn .short{
+        height: 1.5rem;
+        background-color: transparent;
+        border: none;
+        color: darkblue;
+        margin: 0.3rem;
+        font-size: 0.8rem;
+    }
+    .result .item p{
+        color:cyan;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+    .newUrl-btn{
+        height: 1.5rem;
+        background-color: transparent;
+        border: none;
+        color: darkblue;
+        margin: 0.5rem;
+        font-size: 1rem;
+    }
+    
+    .para p{
+        color:cyan;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:1200px) {
+    
+     
+    .nav .head{
+        margin-top:0;
+        margin-right: 3rem;
+    
+    }
+    .content{
+        background: rgba(255,255,255,0.4);
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2.5rem;
+        border-radius: 0.625rem;
+        text-align: center;
+        box-shadow: 0 0.6rem 1.25rem 0px rgba(0,0,0,0.15);
+    }
+    .content h2{
+        font-size: 1.2rem;
+        text-align: center;
+        margin: auto;
+    }
+   
+    .content .textbox{
+        width: 15rem;
+        transform: translate(-236%, -30%);
+    }
+
+    .form .btn .short{
+        height: 1.5rem;
+        background-color: transparent;
+        border: none;
+        color: darkblue;
+        margin: 0.3rem;
+        font-size: 1.6rem;
+    }
+    .result .item p{
+        color:cyan;
+        margin-top: 2rem;
+        font-size: 1.8rem;
+    }
+    .newUrl-btn{
+        height: 1.5rem;
+        background-color: transparent;
+        border: none;
+        color: darkblue;
+        margin: 0.5rem;
+        font-size: 1.8rem;
+    }
+    
+    .para p{
+        color:cyan;
+        font-size: 1.5rem;
+    }
+}
